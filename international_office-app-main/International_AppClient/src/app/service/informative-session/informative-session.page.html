@@ -1,0 +1,41 @@
+<ion-content>
+  <div class="canvas-container">
+    <ion-row class="header ion-align-items-center ion-padding-end header-container">
+      <ion-col size="6" class="ion-text-begin">
+
+      </ion-col>
+    </ion-row>
+    <h1>{{ 'informative_session_title' | translate }}</h1>
+    <div class="container pt-5">
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-6 pb-3 pt-6"    *ngFor="let page of infoSessionPages">
+          
+            <div class="p-4 " >
+              <div class="button ">
+                <div target="_blank" class="info-session-content">
+                  <ng-container    *ngFor="let icon of page.attributes.icon.data">
+                    <img class="icon-image" [src]="environment.API + icon.attributes.url"
+                      alt="Icon {{ icon.attributes.name }}" />
+                  </ng-container>
+                  
+                  <ng-container   *ngFor="let pdfFile of page.attributes.pdfFile.data">
+                    
+                    <a   href="{{ environment.API }}{{ pdfFile.attributes.url }}"
+                      download="{{ pdfFile.attributes.name }}" target="_blank" >
+                      {{ pdfFile.attributes.name }}
+                    </a>
+                  
+                  </ng-container>
+              
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div><br><br><br><br><br><br>
+  <app-footer></app-footer>
+</ion-content>

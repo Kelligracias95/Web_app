@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="german-courses"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'german_course_title' | translate }}</ion-title>
+  </ion-toolbar>
+  <app-translation></app-translation>
+</ion-header><br><br>
+
+<ion-content class="content-container">
+  <div class="home text-center">
+    <div class="carousel">
+      <div *ngIf="successMessage" class="success-message">
+        {{ successMessage }}
+      </div>
+      <ion-row>
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Première partie (colonne de taille moyenne) -->
+            <div class="col-lg-3 pb-3 pt-3">
+              <div class="p-4">
+                <!-- Contenu de la première partie ici -->
+              </div>
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 ">
+
+              <div class="bg-white border rounded">
+
+
+                <ion-row class="header ion-align-items-center ion-padding-end header-container">
+                  <ion-col size-md="6" offset-md="3">
+                    <ion-col size="1" class="ion-text-begin">
+                      <ion-img style="height: 100px; margin-top: 40px;"
+                        src="https://dpm.th-deg.de/public/images/thd.png" alt="Logo" class="header-logo"></ion-img>
+                    </ion-col>
+
+                    <ion-item>
+                      <ion-label position="floating">{{ 'german_course_surname' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="germanCourses.surname"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-label position="floating">{{ 'german_course_firstname' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="germanCourses.firstname"></ion-input>
+                    </ion-item>
+              
+
+                    <ion-item>
+                      <ion-label position="floating">{{ 'matrikelnummer' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="germanCourses.matrikelnummer"></ion-input>
+                    </ion-item>
+
+                      
+                        <ion-item>
+                          <ion-label position="floating">{{ 'course_title_label' | translate }}</ion-label>
+                          <ion-input [(ngModel)]="germanCourses.courseTitle"></ion-input>
+                        </ion-item>
+                        <ion-item>
+                          <ion-label position="floating">{{ 'course_code_label' | translate }}</ion-label>
+                          <ion-input [(ngModel)]="germanCourses.courseCode"></ion-input>
+                        </ion-item>
+                        <ion-item>
+                          <ion-label position="floating">{{ 'study_course_program_label' | translate }}</ion-label>
+                          <ion-input [(ngModel)]="germanCourses.studyCourseProgramm"></ion-input>
+                        </ion-item>
+                        <ion-item>
+                          <ion-label position="floating">{{ 'professor_name_label' | translate }}</ion-label>
+                          <ion-input [(ngModel)]="germanCourses.professorName"></ion-input>
+                        </ion-item>
+
+                        <ion-button expand="full" (click)="createGermanCourse()" class="ion-margin-top">
+                          {{ 'submit_button_text' | translate }}
+                        </ion-button>
+                  
+
+                    
+
+                  </ion-col>
+
+                </ion-row>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </div>
+  </div><br><br><br><br>
+
+
+
+  <app-footer></app-footer>
+</ion-content>

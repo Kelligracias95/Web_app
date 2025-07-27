@@ -1,0 +1,85 @@
+
+  
+ 
+.carousel-container  {
+  margin-bottom: 80px;
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
+
+  
+  
+   
+  
+      .header-container {
+        background-image: url('https://www.pressetext.com/nfs/280/803/photos/photo1.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+       
+        height: 60vh;
+        width: 100%;
+        margin: 0px;
+      
+      }
+  
+    
+  
+    
+    .bubble-sidebar {
+      
+      //height: auto;
+      color: gray;
+      border-right: 1px solid white;
+      border-left: 1px solid white;
+      //box-sizing: border-box;
+      //display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 20px;
+    
+      ion-list {
+        flex-grow: 1;
+        background: white;
+       
+    
+        ion-item {
+          padding: 16px;
+          margin-top: 27px;
+          cursor: pointer;
+          color: black;
+    
+          &.active {
+            background: white;
+            color: black;
+          }
+        }
+      }
+    }
+   
+
+
+   .bubble-sidebar.sidebar-hidden {
+    display: none;
+  }
+ 
+
+.sidebar-hidden {
+  display: block !important; 
+}
+
+
+.sidebar-list {
+ max-height: 60vh; 
+  
+
+  
+}
+  
+
+
+
+h2 {
+  text-align: center;
+}

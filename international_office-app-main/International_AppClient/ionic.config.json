@@ -1,0 +1,8 @@
+{
+  "name": "internationalAppClient",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_other_courses",
+  "info": {
+    "singularName": "faq-other-course",
+    "pluralName": "faq-other-courses",
+    "displayName": "faqOtherCourse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "question": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "text",
+      "unique": false,
+      "required": true
+    },
+    "answer": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

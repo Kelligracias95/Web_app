@@ -1,0 +1,38 @@
+ 
+ 
+  .header {
+
+    font-size: 18;
+    margin: 0;
+  }
+
+
+  
+
+#checklist {
+    padding: 20px;
+  
+  }
+  
+  ion-item {
+    --inner-padding-end: 20px; 
+  }
+  
+  ion-checkbox {
+    --padding-start: 10px; 
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+  
+
+  .container {
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  ion-content {
+    --background: url('https://th.bing.com/th/id/OIP.uyqxgC4aTfTowmgWKdOcgAHaJ4?rs=1&pid=ImgDetMain') no-repeat center center / cover;
+  }

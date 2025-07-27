@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="register"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'register_link' | translate }}</ion-title>
+  </ion-toolbar>
+  <app-translation></app-translation>
+</ion-header><br><br>
+
+
+<ion-content class="content-container">
+  <div class="home text-center">
+    <div class="carousel">
+      <ion-row>
+        <div class="container-fluid">
+          <div class="row">
+        
+            <div class="col-lg-3 pb-3 pt-3">
+              <div class="p-4">
+                
+              </div>
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 ">
+
+              <div class="bg-white border rounded">
+
+                <ion-row class="header ion-align-items-center ion-padding-end header-container">
+                  <ion-col size-md="6" offset-md="3">
+                    <ion-col size="1" class="ion-text-begin">
+                      <ion-img style="height: 80px; margin-top: 40px;"
+                        src="https://dpm.th-deg.de/public/images/thd.png" alt="Logo" class="header-logo"></ion-img>
+                    </ion-col>
+                    <ion-item>
+                      <ion-label>{{ 'username' | translate }}</ion-label>
+                      <ion-input type="text" [(ngModel)]="user.username"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-label>{{ 'email_name' | translate }}</ion-label>
+                      <ion-input type="email" [(ngModel)]="user.email"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-label>{{ 'passwort' | translate }}</ion-label>
+                      <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+                    </ion-item>
+
+                    <ion-button expand="full" (click)="register()">{{ 'register_link' | translate }}</ion-button>
+
+                    <div *ngIf="successMessage" class="success-message">
+                      {{ successMessage }}
+                    </div>
+                  </ion-col>
+                </ion-row>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </div>
+  </div><br><br><br>
+  
+
+ <app-footer></app-footer>
+
+</ion-content>

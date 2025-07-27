@@ -1,0 +1,169 @@
+{
+  
+  
+  "imprintLink": "Impressum",
+  "privacyLink": "Datenschutz",
+  "accessibilityLink": "Erklärung zur Barrierefreiheit",
+
+  "international_office_head": " International Office",
+  "orientation_week": " Orientierungswoche für Austauschstudenten",
+  "integration_event": " Integrationsveranstaltung",
+  "service": " Dienst",
+
+  "overview": "Übersicht",
+  "schedule": "Zeitplan",
+  "information_session": "Infoveranstaltung",
+  "course_selection": "Auswahl der Kurse",
+  "it_intro": "IT-Einführung",
+  "information_everyday":"Informationen für das tägliche Leben in Deutschland",
+  "others_information": "Weitere wichtige Dokumente",
+  "orientation_week_title": "Orientierungswoche für Austauschstudierende",
+  "overview_title": "Übersicht",
+  "dear_students": "Liebe internationale Studierende,",
+  "welcome_message": "Willkommen an der THD",
+  "schedule_description": "Wir freuen uns, Ihnen den Zeitplan für die Orientierungswoche für Austauschstudierende vorstellen zu können, sorgfältig organisiert vom International Office.",
+  "bureaucracy_insights": "Unser Team ist darauf spezialisiert, Ihnen bei der Navigation durch die deutsche Bürokratie zu helfen und wertvolle Einblicke für Ihren Alltag in Deutschland zu bieten.",
+  "checklist_message1": "Falls Sie es noch nicht getan haben, ist es wichtig, dass Sie einige wichtige Dokumente für einen erfolgreichen Aufenthalt an der Hochschule Deggendorf haben.",
+  "checklist_message2": "Bitte prüfen Sie das Formular mit der Checkliste",
+  "checklist_title": "Checkliste",
+  "prosperous_beginning_message": "Wir wünschen Ihnen einen erfolgreichen Studienbeginn und freuen uns auf Ihre Teilnahme an unseren informativen Veranstaltungen!",
+  "international_office_team": "Das Team des International Office",
+
+  
+  "schedule_title": "Zeitplan",
+  "intro_program_description": "Die Orientierungswochen bieten ein zweiwöchiges Einführungsprogramm für alle internationalen Studierenden, die neu in Deggendorf sind.",
+  "includes_description": "Dazu gehören unter anderem:",
+  "campus_city_tour": "Campus- und Stadtführung",
+  "computer_intro": "Einführung in den Umgang mit Computern",
+  "library_intro": "Einführung in die Bibliothek",
+  "registration_in_city": "Anmeldung in der Stadt",
+  "visa_residence_permit": "Visum/Aufenthaltserlaubnis",
+  "diverse_program_description": "Zusätzlich bieten die Orientierungswochen ein vielfältiges Programm mit interkulturellem Training, einem Bayerischen Abend, verschiedenen Tagesausflügen am Wochenende und vielem mehr.",
+  "participants_title": "Teilnehmer",
+  "participants_description": "Die Teilnahme ist für Austauschstudierende verpflichtend. Reguläre internationale Studierende werden zur Teilnahme empfohlen.",
+  "date_title": "Datum",
+  "date_description": "Jeweils im März (Sommersemester) und September (Wintersemester), etwa ein bis zwei Wochen vor Vorlesungsbeginn.",
+  "location_title": "Ort",
+  "location_description": "Campus der TH Deggendorf, Stadt Deggendorf.",
+
+
+  "pickup_service_title": "Abholservice",
+  "full_name_label": "Vollständiger Name",
+  "dormitory_address_label": "Adresse des Wohnheims",
+  "apartment_number_label": "Apartment-Nummer",
+  "arrival_date_label": "Genaues Ankunftsdatum",
+  "arrival_time_label":"Voraussichtliche Ankunftsuhrzeit",
+  "date_format_hint": "Bitte geben Sie das Datum im Format ein: JJJJ-MM-TT (z.B. 2023-12-31)",
+  "phone_number_label": "Telefonnummer",
+  "submit_button": "Absenden",
+  "email_address_label": "E-Mail-Adresse",
+
+  "integrations_event": "NEHMEN SIE TEIL AN UNSEREM INTEGRATIONSEVENT!",
+  "integrations_event_title": "Vielfalt feiern, Gemeinschaft aufbauen",
+ 
+ 
+  "informative_session_title": "WILLKOMMEN ZU UNSERER INFORMATIVEN VERANSTALTUNG",
+
+  "faq_heading": "Häufig gestellte Fragen",
+  "answer_label": "Antwort",
+  "no_answer_label": "Keine Antwort verfügbar",
+  "faq_titel1": "Allgemeine Frage zu den Orientierungswochen",
+  "faq_titel2": "Deutschkurse",
+  "faq_titel3": "Kursauswahl/Lernvereinbarung",
+  "faq_titel4": "Abholservice",
+  "faq_titel5": "Verspätete Ankünfte",
+  "faq_titel6": "Leben in Deggendorf",
+
+  "german_study_course_label": "Deutscher Studienkurs",
+  "elective_language_class_label": "Wahlfach Sprachkurs",
+  "information_course_selection_label": "Information Kursauswahl",
+
+  
+  "german_study_course_title": "Deutscher Studienkurs",
+  "german_study_course_description": "Alle Kommunikation über die deutschen Studiengänge wird stattfinden",
+  "in_german_text": "auf Deutsch.",
+  "registration_procedure_text": "Befolgen Sie das schrittweise Anmeldeverfahren unten:",
+  "check_module_handbooks": "Modulhandbücher und Stundenpläne überprüfen",
+  "review_module_handbooks": "Überprüfen Sie die",
+  "module_handbooks_link": "Modulhandbücher",
+  "and":"und",
+  "timetables_link": "Stundenpläne",
+  "for_available_courses": "für verfügbare Kurse",
+  "fill_in_selected_course_form": "Formular für den ausgewählten Kurs ausfüllen",
+  "complete_application_form": "Füllen Sie das Antragsformular für den gewählten Kurs auf Deutsch aus",
+  "german_course_link": "Deutscher Kurs",
+  "faculties":"Kontakt zu den jeweiligen Fakultäten",
+  "faculties_communication":"Kontaktaufnahme mit den zuständigen Fakultäten, um die Eignung für ausgewählte Kurse zu bestätigen.",
+  "email_confirmation":"Bestätigung per E-Mail:",
+  "choise_confirmation":"Warten Sie auf die Bestätigung Ihrer Kurswahl. Prüfen Sie Ihre E-Mail für weitere Informationen.",
+  "learning_agreement":"Learning Agreement ausfüllen",
+  "complete_learning": "Vervollständigen Sie Ihre Lernvereinbarung auf der Grundlage der gewählten und bestätigten Kurse.",
+  "agreement_send": "Übermittlung der Lernvereinbarung per E-Mail:",
+  "agreement_submit":" Senden Sie Ihre Learning Agreement per E-Mail an",
+  "deadline":"bis zum Ablauf der Frist (16. Oktober 2023).",
+
+
+
+  
+  "elective_language_classes_title": "Wahlfach Sprachkurse",
+  "program_structure_description": "Das Programm ist in zwei Kategorien unterteilt: Pflichtkurse und Wahlfachkurse. Die Anmeldung erfolgt über",
+  "mandatory_courses_label": "Pflichtkurse",
+  "german_intensive_course_description": "Deutscher Intensivkurs, nur für Anfänger in Deutsch.",
+  "german_language_class_description": "Deutscher Sprachkurs während des Semesters.",
+  "ondaf_placement_description": "Der Kurs beinhaltet eine Prüfung namens ",
+  "ondaf_test":"OnDaf-Einstufung",
+  "higher_level":"auf höherem Stufe",
+  "elective_courses_label": "Wahlfachkurse",
+  "basics_of_international_sales_description": "Grundlagen des internationalen Verkaufs und Geschäftsentwicklung.",
+  "bavarian_culture_description": "Bayerische Kultur.",
+  "business_storytelling_description": "Business Storytelling.",
+  "cross_cultural_team_building_description": "Interkulturelles Team Building.",
+  "english_in_technical_contexts_description": "Englisch in technischen Kontexten B2.",
+  "intercultural_training_description": "Interkulturelles Training (1 ECTS).",
+  "information_course_selection_title": "Information Kursauswahl",
+  "information_course_selection_description": "Wie bei den Wahlfachsprachkursen erfolgt die Anmeldung über",
+  "login_link": "Login",
+  "register_link": "Registrieren",
+  "username":"Benutzername",
+  "email_name":"Email",
+  "passwort":"Kennwort",
+  "courses_structure_description": "Diese Kurse sind strukturiert in:",
+  "general_business_courses_label": "Allgemeine Geschäftskurse",
+  "general_engineering_courses_label": "Allgemeine Ingenieurwissenschaften/Internationale Informatikkurse",
+
+  "lets_get_in_touch_paragraph": "Zögern Sie nicht, sich bei uns zu melden - wir stehen Ihnen bei Fragen oder Anliegen gerne zur Verfügung.",
+  "lets_get_in_touch_heading": "KONTAKTIEREN SIE UNS",
+  "international_office_heading": "INTERNATIONALES BÜRO",
+  "contact_title":"Kontaktieren Sie uns",
+
+  "home_title":"WILLKOMMEN AN DER INTERNATIONALEN HOCHSCHULE IN BAYERN",
+  "infos_for_exchange_students_paragraph": "INFOS FÜR AUSTAUSCHSTUDENTEN",
+  "orientation_week_link_text": "Orientierungswoche",
+  "course_selection_link_text": "Kursauswahl",
+  "information_session_link_text": "Infosveranstaltung",
+  "integration_event_link_text": "Integrationsevent",
+  "pickup_service_link_text": "Abholservice",
+  "contact_link_text": "Kontakt",
+  "intercultural_exchange_heading": "INTERKULTURELLER AUSTAUSCH",
+
+  "german_course_title": "Deutschkurs",
+  
+  "german_course_surname": "Nachname",
+  "german_course_firstname": "Vorname",
+  "matrikelnummer": "Matrikelnummer",
+  "course_title_label": "Kurstitel",
+  "course_code_label": "Kurscode",
+  "study_course_program_label": "Studiengangsprogramm",
+  "professor_name_label": "Professor Name",
+  "submit_button_text": "Einreichen"
+ 
+}
+  
+  
+
+
+
+
+
+  
+

@@ -1,0 +1,245 @@
+<ion-header>
+
+
+  <ion-buttons slot="start" class="ion-show-sm">
+
+    <ion-button (click)="toggleSidebarVisibility()">
+      <ion-icon slot="icon-only" name="menu"></ion-icon>
+    </ion-button>
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-buttons>
+
+
+
+</ion-header><br><br>
+
+<ion-content class="justify-content-center" >
+
+  <div class="canvas-container">
+
+    <div class="row ">
+      <div class="col-12 col-md-3 col-xl-2      col-lg-2 bd-sidebar pb-3 d-none d-md-block ">
+        <div class="bubble-sidebar align-bottom" style="min-height: 100px; margin-left: auto; max-height: 600px; overflow-y: auto;">
+          <ion-list class="sidebar-list">
+            <ion-item [class.active]="activeSection === 'german-study-course'"
+              (click)="scrollTo('german-study-course')">{{ 'german_study_course_label' | translate }}</ion-item>
+            <ion-item [class.active]="activeSection === 'elective-language-classe'"
+              (click)="scrollTo('elective-language-classe')">{{ 'elective_language_class_label' | translate
+              }}</ion-item>
+            <ion-item [class.active]="activeSection === 'information-course-selection'"
+              (click)="scrollTo('information-course-selection')">{{ 'information_course_selection_label' | translate
+              }}</ion-item>
+          </ion-list>
+
+        </div>
+      </div>
+
+
+
+
+      <div class="col-12 col-md-9 col-xl-8  py-md-3  bd-content " role="main">
+        <div class="content-container">
+
+          <div class="carousel-container">
+
+            <br><br>
+
+            <ion-row class="header ion-align-items-center ion-padding-end header-container">
+
+            </ion-row>
+
+
+          </div><br><br><br>
+         
+
+          
+
+
+
+          <div id="german-study-course" class="section">
+            <br><br><br>
+           
+
+           
+
+            <h2>{{ 'german_study_course_title' | translate }}</h2><br>
+
+            <div class="flex-container">
+              <p class="custom-width-paragraph">
+                {{ 'german_study_course_description' | translate }}&nbsp;<strong>{{ 'in_german_text' | translate
+                  }}</strong>&nbsp;
+                {{ 'registration_procedure_text' | translate }}
+              </p><br><br>
+
+
+
+              <ion-row>
+                <ion-col size-md="8" offset-md="2">
+
+                  <ion-list class="custom-width-list">
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'check_module_handbooks' | translate }}:</span>
+                      <p class="custom-width">
+                        {{ 'review_module_handbooks' | translate }}
+                        <span><a href="https://th-deg.de/en/students/documents#module-handbooks">{{
+                            'module_handbooks_link' | translate }}</a></span>
+                        {{ 'and' | translate }}
+                        <span><a href="https://th-deg.de/en/students/documents#lecture-schedule">{{ 'timetables_link' |
+                            translate }}</a></span>
+                        {{ 'for_available_courses' | translate }}.
+                      </p>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'fill_in_selected_course_form' | translate }}:</span>
+                      <p class="custom-width">
+                        {{ 'complete_application_form' | translate }}
+                        <span><a routerLink="/german-course">{{ 'german_course_link' | translate }}</a></span>.
+                      </p>
+                    </ion-item>
+
+
+
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'faculties' | translate }}:</span>
+                      <p class="custom-width">
+                        {{ 'faculties_communication' | translate }}.
+                      </p>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'email_confirmation' | translate }}</span>
+                      <p class="custom-width">
+                        {{ 'choise_confirmation' | translate }}.
+                      </p>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'learning_agreement' | translate }}:</span>
+                      <p class="custom-width">
+                        {{ 'complete_learning' | translate }}.
+                      </p>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                      <span>{{ 'agreement_send' | translate }}</span>
+                      <p class="custom-width">
+                        {{ 'agreement_submit' | translate }}
+                        <span><a href="mailto:incomings@th-deg.de">incomings&#64;th-deg.de</a></span>
+                        {{ 'deadline' | translate }}
+                      </p>
+                    </ion-item>
+                  </ion-list>
+                </ion-col>
+              </ion-row>
+            </div>
+          </div><br><br><br><br><br>
+
+
+
+
+          <div id="elective-language-classe" class="section">
+            <h2>{{ 'elective_language_classes_title' | translate }}</h2><br>
+            <div class="flex-container">
+              <p class="custom-width-paragraph">
+
+                {{ 'program_structure_description' | translate }}&nbsp;<a routerLink="/login">{{ 'login_link' |
+                  translate
+                  }}</a> / <a routerLink="/register">{{ 'register_link' | translate }} </a> .
+              </p>
+
+              <ion-item class="custom-width-paragraph">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                <span>{{ 'mandatory_courses_label' | translate }}</span>
+              </ion-item>
+              <ion-list lines="none">
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'german_intensive_course_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'german_language_class_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'ondaf_placement_description' | translate }}&nbsp;&nbsp;<strong>{{ 'ondaf_test' | translate
+                    }}</strong>&nbsp;&nbsp;
+                  {{ 'higher_level' | translate }}
+                </ion-item>
+              </ion-list>
+
+              <ion-item class="custom-width-paragraph">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                <span>{{ 'elective_courses_label' | translate }}</span>
+              </ion-item>
+              <ion-list lines="none">
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'basics_of_international_sales_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'bavarian_culture_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'business_storytelling_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'cross_cultural_team_building_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'english_in_technical_contexts_description' | translate }}
+                </ion-item>
+                <ion-item class="custom-width-item">
+                  &bull; {{ 'intercultural_training_description' | translate }}
+                </ion-item>
+              </ion-list>
+            </div>
+          </div><br><br><br><br><br>
+
+
+
+
+
+          <div id="information-course-selection" class="section">
+            <h2>{{ 'information_course_selection_title' | translate }} </h2><br><br>
+            <div class="flex-container">
+              <p class="custom-width-paragraph">
+
+                {{ 'information_course_selection_description' | translate }}&nbsp;<a routerLink="/login">{{ 'login_link'
+                  |
+                  translate }}</a> / <a routerLink="/register">{{ 'register_link' | translate }}</a> .
+                {{ 'courses_structure_description"' | translate }}
+              </p>
+              <ion-item class="custom-width-paragraph">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                <span>{{ 'general_business_courses_label' | translate }}</span>
+
+              </ion-item>
+              <ion-item class="custom-width-paragraph">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+                <span>{{ 'general_engineering_courses_label' | translate }}</span>
+
+              </ion-item>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div><br><br><br><br><br>
+
+  
+  
+
+
+
+
+
+  <app-footer></app-footer>
+</ion-content>

@@ -1,0 +1,125 @@
+<div class="schedule-container">
+  <div *ngIf="schedules.length > 0; else loading">
+    <div *ngFor="let page of schedules" class="page">
+
+
+      <div>
+        <ng-container *ngIf="page.attributes.title1 ">
+
+          <h2>{{ page.attributes.title1 }}</h2><br><br><br>
+          
+        
+        </ng-container>
+      </div>
+
+      
+      <p>{{ page.attributes.text1 }}</p>
+      <p>{{ page.attributes.text2 }}</p>
+    
+
+
+      <div>
+        <ng-container *ngIf="page.attributes.text3">
+          <ul>
+            <li>
+              {{ page.attributes.text3 }}
+            </li>
+          </ul>
+        
+        </ng-container>
+      </div>
+
+      <div>
+        <ng-container *ngIf="page.attributes.text4">
+          <ul>
+            <li>
+              {{ page.attributes.text4 }}
+            </li>
+          </ul>
+        
+        </ng-container>
+      </div>
+
+      <div>
+        <ng-container *ngIf="page.attributes.text5">
+          <ul>
+            <li>
+              {{ page.attributes.text5 }}
+            </li>
+          </ul>
+        
+        </ng-container>
+      </div>
+
+      <div>
+        <ng-container *ngIf="page.attributes.text6">
+          <ul>
+            <li>
+              {{ page.attributes.text6 }}
+            </li>
+          </ul>
+        
+        </ng-container>
+      </div>
+      <div>
+        <ng-container *ngIf="page.attributes.text7">
+          <ul>
+            <li>
+              {{ page.attributes.text7 }}
+            </li>
+          </ul>
+        
+        </ng-container>
+      </div>
+
+      
+
+      
+
+     
+
+      <div>
+        <ng-container *ngIf="page.attributes.title2 ">
+          <p>
+            <strong>{{ page.attributes.title2 }}</strong>
+           
+          </p>
+             
+        </ng-container>
+      </div>
+
+      <p>{{ page.attributes.text9 }}</p>
+      <div>
+        <ng-container *ngIf="page.attributes.title3">
+          <p>
+            <strong>{{ page.attributes.title3 }}</strong>
+            
+          </p>
+        
+        </ng-container>
+      </div>
+
+    
+
+      
+      <p>{{ page.attributes.text10 }}</p>
+
+      <div>
+        <ng-container *ngIf="page.attributes.title4">
+          <p>
+            <strong>{{ page.attributes.title4 }}</strong>
+           
+          </p>
+        
+        </ng-container>
+      </div>
+
+     
+      <p>{{ page.attributes.text11 }}</p>
+      
+    </div>
+  </div>
+  <ng-template #loading>
+    <p>Loading...</p>
+  </ng-template>
+</div>

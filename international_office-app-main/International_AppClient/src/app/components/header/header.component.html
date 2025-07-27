@@ -1,0 +1,49 @@
+
+  
+  <ion-header>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray  ">
+      
+      <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <ion-img src="https://www.th-deg.de/static/images/logos/THD-Logo.png" style="        width: 100% !important;height: 60px;  " alt="Logo" class="header-logo"></ion-img>
+      </a>
+      <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class=" justify-content-center  collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav mr-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">{{ 'international_office_head' | translate }} </a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              {{ 'service' | translate }}
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"  routerLink="/service/orientation-week"> {{ 'orientation_week' | translate }}
+              </a></li>
+              <li><a class="dropdown-item" href="#" routerLink="/service/course-selection" >{{ 'course_selection' | translate }}</a></li>
+              <li><a class="dropdown-item" href="#" routerLink="/service/informative-session">{{ 'information_session' | translate }}</a></li>
+              <li><a class="dropdown-item" href="#" routerLink="/service/integration-veransatltung">{{ 'integration_event_link_text' | translate }}</a></li>
+              <li><a class="dropdown-item" href="#" routerLink="/service/pickup-service">{{ 'pickup_service_title' | translate }}</a></li>
+              <li><a class="dropdown-item" href="#" routerLink="/service/faq">FAQ</a></li>
+              <li><a class="dropdown-item" href="#"  routerLink="/service/contact">{{ 'contact_link_text' | translate }}</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" routerLink="/sitemap">Sitemap</a>
+          </li>
+        </ul>
+        <app-translation></app-translation>
+      </div>
+      
+      </div>
+      
+    </nav>
+  </ion-header>

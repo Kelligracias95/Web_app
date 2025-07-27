@@ -1,0 +1,24 @@
+
+<div class="container" >
+    
+  <ul>
+    <li *ngFor="let faq of faqs" class="faq-item">
+      <p   class="question">
+        {{ faq.attributes ? faq.attributes.question : 'N/A' }}
+        <span class="toggle-icon" (click)="toggleAnswer(faq)">
+          <ion-icon name="{{ faq.showAnswer ? 'chevron-up-outline' : 'chevron-down-outline' }}"></ion-icon>
+        </span>
+      </p>
+      <div *ngIf="faq.showAnswer">
+        <p  class="answer" *ngIf="faq.attributes && faq.attributes.answer && faq.attributes.answer.length > 0 && faq.attributes.answer[0].children && faq.attributes.answer[0].children.length > 0">
+          {{ 'answer_label' | translate }} : {{ faq.attributes.answer[0].children[0].text }}
+        </p>
+        <p class="answer" *ngIf="!faq.attributes || !faq.attributes.answer || faq.attributes.answer.length === 0 || !faq.attributes.answer[0].children || faq.attributes.answer[0].children.length === 0">
+          {{ 'no_answer_label' | translate }}.
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+

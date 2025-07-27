@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_life_deggendorfs",
+  "info": {
+    "singularName": "faq-life-deggendorf",
+    "pluralName": "faq-life-deggendorfs",
+    "displayName": "faqLifeDeggendorf"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "question": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

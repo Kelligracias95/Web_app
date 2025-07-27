@@ -1,0 +1,51 @@
+/* Add your component-specific styles here */
+div {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  ion-toolbar {
+
+    --background:#0085c8ff;
+    
+  }
+
+  .time-content {
+    margin-right: 20px;
+    
+
+
+  }
+
+  .event-content{
+    margin-left: 250px;
+
+  }
+
+  @media screen and (max-width: 767px) { 
+
+
+    
+  }
+
+
+
+  @media screen and (min-width: 350px) and (max-width: 992px) { 
+
+    .event-content{
+      margin-left: 3em;
+  
+    }
+
+  }

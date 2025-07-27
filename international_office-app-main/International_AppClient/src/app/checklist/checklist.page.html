@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Checklist
+    </ion-title>
+  </ion-toolbar>
+  <app-translation></app-translation>
+</ion-header>
+
+<ion-content ><br><br>
+  <div id="checklist" class="container">
+    <div class="row">
+      <h1>{{ 'checklist_title' | translate }}</h1>
+      <div class="col-md-8 mx-auto"><br><br><br><br>
+        <div class="bg-white border rounded">
+        <ion-list   *ngIf="checklistItems && checklistItems.length">
+          <ion-item *ngFor="let item of checklistItems">
+            <ion-label>{{ item.attributes.title }}</ion-label>
+            <ion-checkbox (ionChange)="onCheckboxChange(item)"></ion-checkbox>&nbsp;&nbsp;
+            <ion-label>{{ item.attributes.name }}</ion-label>
+          </ion-item>
+        </ion-list>
+
+        <ion-button expand="block" (click)="generatePDF()">Generate PDF</ion-button>
+      </div>
+      </div>
+    </div>
+    
+ 
+
+  </div><br><br><br><br>
+
+  <app-footer></app-footer>
+ 
+</ion-content>

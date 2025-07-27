@@ -1,0 +1,44 @@
+{
+  "name": "international-app-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.15.5",
+    "@strapi/plugin-i18n": "^4.15.0",
+    "@strapi/plugin-users-permissions": "^4.15.0",
+    "@strapi/strapi": "4.15.5",
+    "@typegoose/typegoose": "^12.2.0",
+    "cron": "^3.1.6",
+    "koa-cors": "^0.0.16",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.3",
+    "node-cron": "^3.0.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "sqlite": "^5.1.1",
+    "strapi-plugin-translate": "^1.2.4",
+    "strapi-provider-translate-deepl": "^1.1.12",
+    "strapi-utils": "^3.6.11",
+    "styled-components": "5.3.3",
+    "typedi": "^0.10.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a849c610-1f2a-4c53-9d13-abdab31e2c57"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

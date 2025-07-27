@@ -1,0 +1,165 @@
+<ion-header>
+  <ion-buttons slot="start" class="ion-show-sm">
+
+    <ion-button (click)="toggleSidebarVisibility()">
+      <ion-icon slot="icon-only" name="menu"></ion-icon>
+    </ion-button>
+    
+  </ion-buttons>
+
+</ion-header><br><br><br>
+
+
+
+
+<ion-content class="justify-content-center">
+
+  <div class="canvas-container">
+
+    <div class="row">
+      <div class="col-12 col-md-3 col-xl-2  col-lg-2 bd-sidebar pb-3 d-none d-md-block ">
+        <div class="bubble-sidebar align-bottom  ion-hide-sm" style="min-height: 10px; max-height: 200px;">
+          <ion-list class="sidebar-list">
+            <ion-item [class.active]="activeSection === 'overview'" (click)="scrollTo('overview')"  class="section-title">{{ 'overview' |
+              translate }}</ion-item>
+            <ion-item [class.active]="activeSection === 'schedule'" (click)="scrollTo('schedule')"  class="section-title">{{ 'schedule' |
+              translate }}</ion-item>
+            <ion-item [class.active]="activeSection === 'courses-selection'" (click)="scrollTo('courses-selection')"  class="section-title">{{
+              'course_selection' | translate }}</ion-item>
+            <ion-item [class.active]="activeSection === 'information-session'"
+              (click)="scrollTo('information-Session')" class="section-title">{{ 'information_session' | translate }} </ion-item>
+            <ion-item [class.active]="activeSection === 'it-introduction'" (click)="scrollTo('it-introduction')" class="section-title">{{
+              'it_intro' | translate }}</ion-item>
+            <ion-item [class.active]="activeSection === 'information-for-everyday-life-in-germany'"
+              (click)="scrollTo('information-for-everyday-life-in-germany')" class="section-title">{{ 'information_everyday' | translate
+              }}</ion-item>
+            <ion-item [class.active]="activeSection === 'other-important-documents'"
+              (click)="scrollTo('other-important-documents')" class="section-title">{{ 'others_information' | translate }}</ion-item>
+
+
+
+          </ion-list>
+        </div>
+      </div>
+      
+
+      <div class="col-12 col-md-9 col-xl-8  py-md-3  bd-content " role="main">
+        <div class="content-container  ">
+          
+            <div class="carousel-container">
+              
+                <ion-col  class="ion-text-begin">
+                  <h1>{{ 'orientation_week_title' | translate }}</h1>
+
+                </ion-col><br><br>
+
+                <ion-row class="header ion-align-items-center ion-padding-end header-container">
+                  
+                </ion-row>
+
+          
+            </div><br><br><br><br>
+          
+
+
+
+
+
+        
+
+          <div id="overview" class="section">
+
+            <app-overview></app-overview>
+           
+          </div>
+
+
+         
+
+
+          <ion-col size="1" class="ion-text-begin">
+            <ion-img style="height: 50em; margin-top: 40px;" src="assets/icon/Weekplanner.jpg" alt="Logo"
+              class="header-logo"></ion-img>
+          </ion-col><br><br>
+
+
+          
+          <div id="schedule" class="section">
+            
+            <div class="flex-container">
+              
+              <app-schedule></app-schedule>
+              <br><br><br><br><br>
+              <app-event></app-event>
+            </div><br><br><br><br><br><br>
+
+            <div id="courses-selection" class="section">
+              <h2>{{ 'course_selection' | translate }}</h2><br><br>
+              <div class="flex-container"><br><br>
+
+                <app-download-course></app-download-course>
+              </div>
+            </div><br><br><br><br><br><br>
+
+
+            <div id="information-Session" class="section">
+              <h2>{{ 'information_session' | translate }}</h2><br><br>
+              <div class="flex-container"><br><br>
+                <app-info-session-download></app-info-session-download>
+
+              </div>
+            </div><br><br><br><br><br><br>
+
+            <div id="it-introduction" class="section">
+              <h2>{{ 'it_intro' | translate }}</h2>
+              <div class="flex-container"><br><br>
+                <app-download-it></app-download-it>
+
+              </div><br><br><br><br><br><br>
+
+              <div id="information-for-everyday-life-in-germany" class="section">
+                <h2>{{ 'information_everyday' | translate }}</h2><br><br>
+                <div class="flex-container"><br><br>
+                  <app-everydaylife-download></app-everydaylife-download>
+
+                </div>
+              </div><br><br><br><br><br><br>
+
+
+              <div id="other-important-documents" class="section"><br>
+                <h2>{{ 'others_information' | translate }}</h2><br><br>
+                <div class="flex-container">
+
+                  <app-download></app-download>
+                </div>
+              </div>
+            </div>
+
+          
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+     
+      
+    
+    </div>
+  </div><br><br><br><br><br>
+  
+  
+
+  
+
+
+
+
+
+
+
+  <app-footer></app-footer>
+
+</ion-content>

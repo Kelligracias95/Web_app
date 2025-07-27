@@ -1,0 +1,98 @@
+
+
+
+<ion-content class="content-container">
+  <div class="home text-center">
+
+    <div class="carousel">
+
+      <ion-col  class="ion-text-begin"><br><br><br><br>
+        <h1>{{ 'pickup_service_title' | translate }}</h1>
+
+      </ion-col><br>
+
+
+      <div *ngIf="successMessage" class="success-message">
+        {{ successMessage }}
+      </div>
+
+
+      <ion-row>
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Première partie (colonne de taille moyenne) -->
+            <div class="col-lg-3 pb-3 pt-3">
+              <div class="p-4">
+                <!-- Contenu de la première partie ici -->
+              </div>
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 ">
+
+              <div class="bg-white border rounded">
+
+
+                <ion-row class="header ion-align-items-center ion-padding-end header-container">
+                  <ion-col size-md="6" offset-md="3">
+                    <ion-col size="1" class="ion-text-begin">
+                      <ion-img style="height: 100px; margin-top: 40px;"
+                        src="https://dpm.th-deg.de/public/images/thd.png" alt="Logo" class="header-logo"></ion-img>
+                    </ion-col>
+                    <ion-item>
+                      <ion-label position="floating">{{ 'full_name_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.fullName"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-label position="floating">{{ 'dormitory_address_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.dormitoryAddress"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-label position="floating">{{ 'apartment_number_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.apartmentNumber"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-label position="floating">{{ 'arrival_date_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.arrivalDateTime" type="date"
+                        [value]="pickupServices.arrivalDateTime | date:'yyyy-MM-dd'"></ion-input>
+
+
+                    </ion-item>
+
+                    <ion-item>
+                      <ion-label position="floating">{{ 'arrival_time_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.time" type="time"
+                        [value]="pickupServices.time"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-label position="floating">{{ 'phone_number_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.phoneNumber" type="tel"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-label position="floating">{{ 'email_address_label' | translate }}</ion-label>
+                      <ion-input [(ngModel)]="pickupServices.email" type="email"></ion-input>
+                    </ion-item>
+                    <ion-button expand="full" (click)="createPickupService()" class="ion-margin-top">
+                      {{ 'submit_button' | translate }}
+                    </ion-button>
+                  </ion-col>
+                </ion-row>
+              </div>
+            </div>
+            <!-- Troisième partie (colonne de taille moyenne) -->
+            <div class="col-lg-3 pb-3 pt-3">
+              <div class="p-4">
+                <!-- Contenu de la troisième partie ici -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </ion-row>
+    </div>
+
+
+
+
+
+  </div><br><br><br><br>
+  <app-footer></app-footer>
+</ion-content>

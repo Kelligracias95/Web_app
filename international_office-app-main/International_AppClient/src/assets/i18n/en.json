@@ -1,0 +1,168 @@
+{
+  "imprintLink": "Legal Notice",
+  "privacyLink": "Data Privacy",
+  "accessibilityLink": "Accessibility ",
+
+  "international_office_head": " International Office",
+  "service": " Service",
+  "orientation_week": " Orientation week for Exchange Student",
+  "integration_event": " Integration Event",
+
+
+
+  "h1": "Orientation Week for Exchange Students",
+  "overview": "Overview",
+  "schedule": "Schedule",
+  "information_session": "Information Session",
+  "course_selection": "Courses Selection",
+  "it_intro": "IT Introduction",
+  "information_everyday":"Information for Everyday life in Germany",
+  "others_information": "Other Important Documents",
+  "orientation_week_title": "Orientation Week for Exchange Students",
+  "overview_title": "Overview",
+  "dear_students": "Dear International Students,",
+  "welcome_message": "Welcome to THD",
+  "schedule_description": "We are thrilled to present the schedule for the Orientation Week for Exchange Students, meticulously organized by the International Office.",
+  "bureaucracy_insights": "Our team is dedicated to helping you navigate German bureaucracy and offering valuable insights for your everyday life in Germany.",
+  "checklist_message1": "If you have not already done so, it is important that you have some important documents for a successful stay at Deggendorf University of Applied Sciences.",
+  "checklist_message2": " Please check the form with the checklist",
+  "checklist_title": "Checklist",
+  "prosperous_beginning_message": "Wishing you a prosperous beginning to your studies and looking forward to your participation in our informative sessions!",
+  "international_office_team": "The team of the International Office",
+  
+  "schedule_title": "Schedule",
+  "intro_program_description": "The Orientation Weeks offer a two-week introduction program for all international students who are new to Deggendorf.",
+  "includes_description": "This includes, among other things:",
+  "campus_city_tour": "Campus and city tour",
+  "computer_intro": "Computer introduction",
+  "library_intro": "Library introduction",
+  "registration_in_city": "Registration in the city",
+  "visa_residence_permit": "Visa/residence permit",
+  "diverse_program_description": "Additionally, the Orientation Weeks offer a diverse program with an Intercultural Training, a Bavarian Evening, various day trips on weekends, and much more.",
+  "participants_title": "Participants",
+  "participants_description": "Attendance is mandatory for exchange students. Regular international students are recommended to participate.",
+  "date_title": "Date",
+  "date_description": "Each in March (Summer Semester) and September (Winter Semester), approximately one to two weeks before the start of lectures.",
+  "location_title": "Location",
+  "location_description": "Campus of TH Deggendorf, City of Deggendorf.",
+
+
+  "pickup_service_title": "Pickup Service",
+  "full_name_label": "Full Name",
+  "dormitory_address_label": "Address of the Dormitory",
+  "apartment_number_label": "Apartment Number",
+  "arrival_date_label": "Exact Date of Arrival",
+  "arrival_time_label":"Estimate Time of Arrival",
+  "date_format_hint": "Please enter the date in the format: YYYY-MM-DD (e.g., 2023-12-31)",
+  "phone_number_label": "Phone Number",
+  "submit_button": "Submit",
+  "email_address_label": "Email Address",
+
+
+  "integrations_event": "JOIN US AT OUR INTEGRATION EVENT !",
+  "integrations_event_title": "Celebrating Diversity, Building Community",
+ 
+  "informative_session_title": "WELCOME TO OUR INFORMATIVE SESSION",
+
+
+  "faq_heading": "Frequently Asked Questions",
+  "answer_label": "Answer",
+  "no_answer_label": "No answer available",
+
+  "faq_titel1": "General Question about the Orientation Weeks",
+  "faq_titel2": "German Courses",
+  "faq_titel3": "Course Selection/Learning Agreement",
+  "faq_titel4": "Pickup-Service",
+  "faq_titel5": "Late Arrivals",
+  "faq_titel6": "Life in Deggendorf",
+
+
+
+
+  "german_study_course_label": "German Study Course",
+  "elective_language_class_label": "Elective Language Class",
+  "information_course_selection_label": "Information Course Selection",
+
+  "german_study_course_title": "German Study Course",
+  "german_study_course_description": "All communication about the German study programmes will happen",
+  "in_german_text": "in German.",
+  "registration_procedure_text": "Follow the step-by-step registration procedure below:",
+  "check_module_handbooks": "Check Module Handbooks and Timetables",
+  "review_module_handbooks": "Review the",
+  "module_handbooks_link": "Module Handbooks",
+  "and":"and",
+  "timetables_link": "Timetables",
+  "for_available_courses": "for available courses",
+  "fill_in_selected_course_form": "Fill in the Form for the Selected Course",
+  "complete_application_form": "Complete the application form for the chosen course in German",
+  "german_course_link": "German Course",
+  "faculties":"Contact Respective Faculties",
+  "faculties_communication":"Initiate communication with the relevant faculties to confirm eligibility for selected courses",
+  "email_confirmation":"Confirmation by E-mail:",
+  "choise_confirmation":"Await confirmation of your course selection. Check your email for further information",
+  "learning_agreement":"Fill in Learning Agreement",
+  "complete_learning":"Complete your learning agreement based on the chosen and confirmed courses",
+  "agreement_send": "Send Learning Agreement by E-mail:",
+  "agreement_submit":" Submit your learning agreement via email to",
+  "deadline":"by the deadline (16 October 2023).",
+
+
+  "elective_language_classes_title": "Elective Language Classes",
+  "program_structure_description": "The program is structured into two categories: Mandatory Courses and Elective Courses. Registration is done via",
+  "mandatory_courses_label": "Mandatory Courses",
+  "german_intensive_course_description": "German Intensive Course, only for beginners in German.",
+  "german_language_class_description": "German Language Class, during the semester.",
+  "ondaf_placement_description": "The course includes an examination called",
+  "ondaf_test":"OnDaf-Einstufung",
+  "higher_level":"at its higher level.",
+  "elective_courses_label": "Elective Courses",
+  "basics_of_international_sales_description": "Basics of International Sales and Business Development.",
+  "bavarian_culture_description": "Bavarian Culture.",
+  "business_storytelling_description": "Business Storytelling.",
+  "cross_cultural_team_building_description": "Cross-Cultural Team Building.",
+  "english_in_technical_contexts_description": "English in Technical Contexts B2.",
+  "intercultural_training_description": "Intercultural Training (1 ECTS).",
+
+  
+  "information_course_selection_title": "Information Course Selection",
+  "information_course_selection_description": "As with the Elective Language Courses, the registration is done via",
+  "login_link": "Login",
+  "register_link": "Register",
+  "username":"Username",
+  "email_name":"Email",
+  "passwort":"Password",
+  "courses_structure_description": "These courses are structured into:",
+  "general_business_courses_label": "General Business Courses",
+  "general_engineering_courses_label": "General Engineering/International Computer Science Courses",
+
+
+  "lets_get_in_touch_paragraph": "Don't hesitate to get in touch – we're here to assist you with any inquiries or concerns.",
+  "lets_get_in_touch_heading": "LET'S GET IN TOUCH",
+  "international_office_heading": "INTERNATIONAL OFFICE",
+  "contact_title":"Contact Us",
+  
+
+  "home_title":"WELCOME TO BAVARIA'S  INTERNATIONAL UNIVERSITY",
+  "infos_for_exchange_students_paragraph": "INFOS FOR EXCHANGE STUDENTS",
+  "orientation_week_link_text": "Orientation Week",
+  "course_selection_link_text": "Course Selection",
+  "information_session_link_text": "Information Session",
+  "integration_event_link_text": "Integration Event",
+  "pickup_service_link_text": "Pickup-Service",
+  "contact_link_text": "Contact",
+  "intercultural_exchange_heading": "INTERCULTURAL EXCHANGE",
+
+  
+  
+  "german_course_title": "German Course",
+  
+  "german_course_surname": "Surname",
+  "german_course_firstname": "Firstname",
+  "matrikelnummer": "Matrikelnummer",
+  "course_title_label": "Course Title",
+  "course_code_label": "Course Code",
+  "study_course_program_label": "Study Course Program",
+  "professor_name_label": "Professor Name",
+  "submit_button_text": "Submit"
+  
+}

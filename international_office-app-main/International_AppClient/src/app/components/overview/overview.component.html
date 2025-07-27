@@ -1,0 +1,21 @@
+<div class="overview-container">
+  <div *ngIf="orientierungsweekpages.length > 0; else loading">
+    <div *ngFor="let page of orientierungsweekpages" class="page">
+      <h2>{{ page.attributes.title1 }}</h2><br>
+      <p>{{ page.attributes.title2 }}</p>
+      <p>{{ page.attributes.title3 }}</p>
+      <p>{{ page.attributes.text1 }}</p>
+      <div>
+        <ng-container *ngIf="page.attributes.text2">
+          <p>{{ page.attributes.text2 }} <a routerLink="/checklist">Checklist</a>.</p>
+        </ng-container>
+      </div>
+      
+      <p>{{ page.attributes.text3 }}</p>
+      <p>{{ page.attributes.text4 }}</p>
+    </div>
+  </div>
+  <ng-template #loading>
+    <p>Loading...</p>
+  </ng-template>
+</div>

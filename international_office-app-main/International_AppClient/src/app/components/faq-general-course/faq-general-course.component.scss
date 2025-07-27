@@ -1,0 +1,48 @@
+div {
+   
+    height: 100%;
+    
+  
+    h2 {
+      font-size: 24px;
+     margin-top: 200px;
+     color:white;
+    
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      color:white;
+  
+      li {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+  
+        .faq-item {
+          padding: 15%;
+          
+        
+  
+          p.question {
+            margin: 0;
+            display: flex;
+            align-items: center;
+  
+            .toggle-icon {
+              cursor: pointer;
+              margin-left: 10px;
+            }
+          }
+  
+         
+        }
+      }
+    }
+  }
+  
+  :host {
+    display: block;
+  }
+  

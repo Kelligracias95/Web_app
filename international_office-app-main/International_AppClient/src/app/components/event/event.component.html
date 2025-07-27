@@ -1,0 +1,17 @@
+<ion-grid>
+  <ion-row *ngFor="let dayGroup of groupedEvents">
+    <ion-col>
+      <ion-toolbar style="background-color:#ffcab9;">
+        <ion-title>{{ dayGroup.dayAndMonth }}</ion-title>
+      </ion-toolbar>
+      <ion-list>
+        <ion-item *ngFor="let event of dayGroup.events" style="display: flex; align-items: flex-start;">
+          <ion-label>
+            <div class="time-content" >{{ event.attributes.time }}</div>
+            <div class="event-content" >{{ event.attributes.event }}</div>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -1,0 +1,16 @@
+<div>
+  <ul>
+    <li *ngFor="let download of downloads">
+      <div>
+        <p>{{ download.title }}</p>
+        <p>{{ download.text }}</p>
+        <p *ngFor="let pdf of download.attributes.pdfFile.data">
+          <a href="{{ environment.API }}{{ pdf.attributes.url }}" download="{{ pdf.attributes.name }}" target="_blank">
+            <img class="download-icon" src="assets/icon/download_icon.jpeg" alt="Download Icon" />
+            {{ pdf.attributes.name }}
+          </a>
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
